@@ -1,0 +1,43 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+ul li {
+  list-style-type: none;
+  padding: 10px;
+
+  }
+
+.wrapper {
+
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  max-width: 960px; /* 2 */
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+  background-color: rgba(7, 33, 71, 0.8);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.wrapper h1 {
+  padding: 10px;
+  color: white;
+}
+
+.wrapper a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.details {
+    background: grey;
+    padding: 20px;
+    width: 40vh;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+}
